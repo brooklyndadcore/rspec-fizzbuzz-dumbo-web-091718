@@ -2,8 +2,12 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(num)
   if num % 3 && num % 5
-    return "fizzbuzz"
-  else if num % 3
-    return 
-  
+    return "FizzBuzz"
+  elsif num % 3
+    return "Fizz"
+  elsif num % 5
+    return "Buzz"
+  else 
+    return NIL
+  end
 end
